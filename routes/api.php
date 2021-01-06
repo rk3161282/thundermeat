@@ -27,7 +27,9 @@ $router->group(['middleware' => ['JWTAuth'], 'prefix' => 'v1'], function () use 
 
     $router->get('/sliders', '\App\Http\Controllers\Api\ApiController@sliders');
 
+     // categories api
     $router->get('/categories', '\App\Http\Controllers\Api\ApiController@categories');
 
+    // shop list api
     $router->post('/shopslist', '\App\Http\Controllers\Api\ApiController@shopslist');
 });
