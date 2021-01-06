@@ -1,0 +1,54 @@
+
+/*---------------Benefits Section-----------------------*/
+.benefits {
+  padding: 5px 0px;
+  background-color: #f5f6f8; }
+  .benefits h2.heading {
+    margin: 0.8em 0em 0em 0em; }
+  .benefits .cardbox {
+    padding: 15px;
+    margin-bottom: 5px; }
+    .benefits .cardbox img {
+      float: left;
+      margin-right: 20px; }
+    .benefits .cardbox h2 {
+      padding-top: 25px;
+      color: #FFF; }
+    .benefits .cardbox.pinkbox {
+      background-color: #f5687b; }
+    .benefits .cardbox.skybox {
+      background-color: #1da7f0; }
+  .benefits .card {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 0px;
+    display: block;
+     }
+    .benefits .card .crad-bnfts-lft {
+      width: 12%;
+      float: left;
+      margin-right: 20px;
+      padding: 8px; }
+      .benefits .card .crad-bnfts-lft i {
+        font-size: 25px; }
+      .benefits .card .crad-bnfts-lft.pinkbrdr {
+        border-right: 1px solid #f5687b; }
+      .benefits .card .crad-bnfts-lft.skybrdr {
+        border-right: 1px solid #1da7f0; }
+    .benefits .card .crad-bnfts-rgt {
+      float: left;
+      width: 82%; }
+    .benefits .card.pinkclr {
+      border: 1px solid #f5687b; }
+    .benefits .card.skyclr {
+      border: 1px solid #1da7f0; }
+       .benefits .card.redclr {
+      border: 1px solid red; }
+       .benefits .card.blackclr {
+      border: 1px solid black; }
+       .benefits .card.skyclr {
+      border: 1px solid #1da7f0; }
+
+/*---------------analytics Section-----------------------*/
+
+/*# sourceMappingURL=style.css.map */
